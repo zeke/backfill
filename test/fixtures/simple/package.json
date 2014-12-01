@@ -1,0 +1,13 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "domready": "^1.0.7",
+    "is-url": "^1.2.0",
+    "minimist": "^1.1.0"
+  }
+}
