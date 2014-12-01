@@ -1,6 +1,6 @@
 {
   "name": "backfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download package.json dependency data to meta.json",
   "main": "index.js",
   "bin": "index.js",
