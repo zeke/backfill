@@ -1,6 +1,8 @@
-# backfill 
+# backfill
 
 Download package.json dependency data to meta.json
+
+[backfill](https://www.npmjs.org/package/backfill) looks for all `dependencies` in `package.json` and downloads registry metadata for each one to a file called `meta.json`.
 
 ## Installation
 
@@ -10,6 +12,18 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 npm install backfill --save
 ```
 
+## Usage
+
+To have backfill update `meta.json` automatically every time you install, add a `postinstall` script:
+
+```json
+{
+  "name": "npm-collection-foo",
+  "scripts": {
+    "postinstall": "backfill"
+  }
+}
+```
 
 ## Tests
 

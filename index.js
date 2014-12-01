@@ -30,6 +30,7 @@ if (!pkg.dependencies) {
 
 pkgs(Object.keys(pkg.dependencies), function(err, packages) {
   if (err) throw err;
+
   fs.writeFileSync(metaPath, JSON.stringify({packages: packages}, null, 2))
   console.log("Wrote %s", metaPath)
 })
